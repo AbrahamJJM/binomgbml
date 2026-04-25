@@ -2,14 +2,14 @@
 
 This repository contains the code to reproduce the main results from the paper "Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation", presented in ICLR 2026.
 
-ArXiv: [text](https://arxiv.org/abs/2604.13263)
+[BinomGBML on arXiv](https://arxiv.org/abs/2604.13263) [BinomGBML OpenReview](https://openreview.net/forum?id=mKgUAO41zf)
 
 ### Setup
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd binom-maml-codes
+git clone https://github.com/AbrahamJJM/binomgbml
+cd binomgbml
 ```
 
 2. Create Conda environment and install dependencies:
@@ -64,9 +64,14 @@ Execute the experiment script:
 ```
 
 ## Citation
+If you find this work useful, please consider citing:
+> Y. Zhang, A. Jaeger Mountain, B. Li, and G. B. Giannakis, "Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation,” in *Proceedings of the International Conference on Learning Representations (ICLR)*, 2026. 
 
-If you use this code in your research, please cite the appropriate papers for the algorithms implemented.
-
-## License
-
-This project is released under the MIT License.
+```tex
+@inproceedings{BinomGBML, 
+  title={Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation},
+  author={Yilang Zhang and Abraham Jaeger Mountain and Bingcong Li and Georgios B. Giannakis},
+  booktitle={The Fourteenth Annual International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=mKgUAO41zf}
+}
