@@ -4,10 +4,11 @@ channels:
   - nvidia
   - conda-forge
 dependencies:
-  - python >= 3.8
+  - python>=3.8,<3.11
   - pytorch >= 2.0
   - pytorch-cuda >= 11.7
   - torchvision
   - pip
-  - learn2learn >= 0.2.0
   - numpy >= 1.21.0
+  - pip:
+    - learn2learn==0.2.0
